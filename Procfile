@@ -1,1 +1,1 @@
-web: gunicorn Sendmail:SENG438
+web: gunicorn Sendmail:Football-Players
