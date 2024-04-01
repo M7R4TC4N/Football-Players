@@ -4,8 +4,8 @@ from email.mime.text import MIMEText
 from flask import Flask, render_template, request, url_for, jsonify
 
 app = Flask(__name__, 
-            static_folder='C:\\Users\\user\\OneDrive\\Masaüstü\\SENG438\\static',  # static klasörünü belirt
-            template_folder='C:\\Users\\user\\OneDrive\\Masaüstü\\SENG438')
+            static_folder='.\static',  # static klasörünü belirt
+            template_folder='.\')
 
 
 @app.route('/')
